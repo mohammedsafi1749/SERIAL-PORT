@@ -63,7 +63,7 @@ void main(void)
 
 ### (ii) Serial Port to Transfer a Message
 
-
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/6ec4afcc-88ca-4508-b48d-caf87a48046b" />
 
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.
