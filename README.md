@@ -1,5 +1,7 @@
 
 # Serial Transfer of Single Byte / Character using 8051 (Keil)
+## NAME: MOHAMMED SAFI F
+## REG NO: 212224060156
 
 ## AIM
 To write and execute an Embedded C Program for Serial Transfer of Single Byte / Character using 8051 in Keil.
