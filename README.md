@@ -57,5 +57,13 @@ void main(void)
 
 ### OUTPUT:
 
+### (i) Serial Port Transfer a Single Character
+
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/76e30bda-07c9-46a2-bd2d-8ed28186d57a" />
+
+### (ii) Serial Port to Transfer a Message
+
+
+
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.
