@@ -1,5 +1,5 @@
 
-# Serial Transfer of Single Byte / Character using 8051 (Keil)
+# Transfer single byte / character serially using 8051 KEIL.(EMBEDDED C Program)
 
 ## AIM
 To write and execute an Embedded C Program for Serial Transfer of Single Byte / Character using 8051 in Keil.
