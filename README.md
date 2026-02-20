@@ -61,7 +61,7 @@ void main(void)
 
 ### (i) Serial Port Transfer a Single Character
 
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/76e30bda-07c9-46a2-bd2d-8ed28186d57a" />
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/25759442-924d-48f4-b060-37386d74fd3d" />
 
 ### (ii) Serial Port to Transfer a Message
 
