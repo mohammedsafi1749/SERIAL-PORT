@@ -38,15 +38,15 @@ while(1);
 
 void main(void)
 {
-    unsigned char msg[] = "VETRI";
+    unsigned char msg[] = "SAFI";
     unsigned char i;
 
-    TMOD = 0x20;      // Timer1 Mode2
-    TH1  = 0xFD;      // 9600 baud rate
-    SCON = 0x50;      // Serial mode1
-    TR1  = 1;         // Start Timer1
+    TMOD = 0X20;  
+    TH1  = 0XFA;
+    SCON = 0X50;      
+    TR1  = 1;
 
-    for(i = 0; msg[i] != '\0'; i++)
+    for(i = 0; i<=12; i++)
     {
         SBUF = msg[i];
         while(TI == 0);
@@ -65,7 +65,7 @@ void main(void)
 
 ### (ii) Serial Port to Transfer a Message
 
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/6ec4afcc-88ca-4508-b48d-caf87a48046b" />
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/13406ff3-cf5c-46bd-9fca-56c2446f53bf" />
 
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.
