@@ -17,18 +17,18 @@ To write and execute an Embedded C Program for Serial Transfer of Single Byte / 
 ```
 #include <reg51.h>
 
-void main(void)
+void main (void)
 {
-    TMOD = 0x20;      // Timer1 Mode2
-    TH1  = 0xFD;      // 9600 baud rate
-    SCON = 0x50;      // Serial mode1
-    TR1  = 1;         // Start Timer1
-
-    SBUF = 'A';       // Send character 'A'
-    while(TI == 0);   // Wait until transmitted
-    TI = 0;           // Clear flag
-
-    while(1);         // Stop here
+TMOD = 0X20;
+TH1 = 0XFA;
+SCON = 0X50;
+TR1 =1;
+	
+SBUF ='A';
+while (T1 == 0);
+T1=0;
+	
+while(1);
 }
 ```
 ### (ii) Serial Port to Transfer a Message
